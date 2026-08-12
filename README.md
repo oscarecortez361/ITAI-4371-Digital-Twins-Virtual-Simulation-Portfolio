@@ -2,6 +2,12 @@
 
 This repository organizes coursework, concepts, and portfolio material from **ITAI 4371: Digital Twins & Virtual Simulation**. It focuses on how real systems can be represented in virtual environments for testing, monitoring, training, and robotics development.
 
+## Visual Project Gallery
+
+The gallery below includes spatial-mapping experiments, lab-environment capture, **SportsTwin Live** development screens, live-score and alert interfaces, and selected setup/debugging snapshots from digital-twin work.
+
+![Digital Twins Spatial Mapping and SportsTwin Gallery](media/digital-twins-photo-gallery.jpg)
+
 ## Topics represented
 
 - Digital twin architecture
@@ -11,13 +17,14 @@ This repository organizes coursework, concepts, and portfolio material from **IT
 - Robotics simulation
 - Sensor and environment modeling
 - Simulation-to-real considerations
-- Real-world use cases in healthcare, EMS, public safety, autonomous systems, and robotics
+- Spatial mapping and environment capture
+- Real-world use cases in healthcare, EMS, public safety, autonomous systems, robotics, and smart environments
 
 ## My contribution
 
 Some course work was completed as part of a team. This portfolio separates team material from my own work and does not claim sole authorship of group deliverables.
 
-My individual focus included **NVIDIA Isaac Sim for robotics**, including virtual testing, physics-based simulation, sensor modeling, robot behavior, and the limits of transferring simulated performance to real-world systems.
+My individual focus included **NVIDIA Isaac Sim for robotics**, including virtual testing, physics-based simulation, sensor modeling, robot behavior, and the limits of transferring simulated performance to real-world systems. The portfolio also includes development work on **SportsTwin Live**, a home sports-room digital-twin command-board concept.
 
 ## Why digital twins matter
 
@@ -30,6 +37,7 @@ A digital twin is more than a static 3D model. It connects a real or proposed sy
 - Modeling emergency-response or healthcare environments
 - Evaluating autonomous systems under different conditions
 - Training operators in a virtual copy of a real environment
+- Monitoring a smart room through a digital command board
 
 An EMS/public-safety example may include modeling an ambulance interior, equipment placement, sensors, patient location, and provider or robot movement. This is treated as a **use case**, not a claim that the entire ambulance digital twin was an individual project.
 
@@ -38,6 +46,8 @@ An EMS/public-safety example may include modeling an ambulance interior, equipme
 ```text
 .
 ├── README.md
+├── media/
+│   └── digital-twins-photo-gallery.jpg
 ├── docs/
 │   ├── DIGITAL_TWIN_CONCEPTS.md
 │   ├── ISAAC_SIM_NOTES.md
